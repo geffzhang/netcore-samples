@@ -1,10 +1,12 @@
 {
   "version": "1.0.0-*",
   "buildOptions": {
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+	"embed": ["Res1.txt", "Res2.wav", "Res3.docx", "Res4.png", "Res5.ico"]
   },
   "dependencies": {
     "Microsoft.NETCore.App": {
+      "type": "platform",
       "version": "1.0.0"
     }
   },
@@ -12,14 +14,5 @@
     "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
-  },
-  "runtimes":{
-    "win7-x64": { },
-    "win7-x86": { },
-	"win10-x64": { },
-    "win10-x86": { },
-    "osx.10.10-x64": { },
-    "osx.10.11-x64": { },
-    "ubuntu.14.04-x64":{ }
   }
 }
