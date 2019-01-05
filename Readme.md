@@ -3,9 +3,11 @@
 
 This repository contains working examples using .NET Core, This is a work in progress, new samples will be added from time to time.
 
-#Code samples list
 |Id|Name|Description|Added Date|
-|---------|:------|:------|:------:|:------:|:------:|
+|:------:|:------:|:------:|:------:|
+|16|Call_C_Library_In_Linux_With_Callback|This project shows how to call C Library functions in Linux with callback.|22nd July 2018|
+|15|Call_C_Library_In_Linux|This project shows how to call C Library functions in Linux.|19th July 2018|
+|14|EntityFramework|This project shows how to use Entity Framework in .net core.|27th September 2016|
 |13|Thread-Process|This project shows how to get processes and threads in .net core.|19th June 2016|
 |12|EmbeddedResource|This project show how to embed and read resources in .net core.|24th May 2016|
 |11|Encodings|This project shows how the encodings are supported in .net core.|19th May 2016|
@@ -22,55 +24,28 @@ This repository contains working examples using .NET Core, This is a work in pro
 
 
 
-All examples in this repos have been tested under Windows, Mac OS and Ubuntu using **.NET Core RC2 and .NET Core SDK Preview 1**.
+Below are the OS enviroment I'm using to test my projects.
 
-Configurations are as below:
-
-Windows
+ Windows
 -------------------
-`Product Information:`
-` Version:     1.0.0-preview2-003121`
-` Commit Sha:  1e9d529bc5`
-
-`Runtime Environment:`
-` OS Name:     Windows`
-` OS Version:  10.0.10586`
-` OS Platform: Windows`
-` RID:         win10-x64`
+`Microsoft Windows 10 x64 [Version 10.0.17134.165]`
  
  
  Mac OS
 -------------------
-`Product Information:`
-` Version:     1.0.0-preview2-003121`
-` Commit Sha:  1e9d529bc5`
-
-`Runtime Environment:`
-` OS Name:     Mac OS X`
-` OS Version:  10.11`
-` OS Platform: Darwin`
-` RID:         osx.10.11-x64`
+`Mac OS X 10.13 x64`
  
  
  Ubuntu
 -------------------
-`Product Information:`
-` Version:     1.0.0-preview2-003121`
-` Commit Sha:  1e9d529bc5`
-
-`Runtime Environment:`
-` OS Name:     ubuntu`
-` OS Version:  14.04`
-` OS Platform: Linux`
-` RID:         ubuntu.14.04-x64`
+`Ubuntu 18.04 x64`
  
  
  
 ## How to run
 
-1. Install the dotnet core RC2 from https://www.microsoft.com/net/core
+1. Install the dotnet core 2.1 from https://www.microsoft.com/net/core
 2. Clone this repo
 3. Navigate to the project folder you prefer
 4. Make sure you have read the Readme.md file.
-5. run `dotnet restore` in the folder
-6. run `dotnet run`
+5. run `dotnet run`
